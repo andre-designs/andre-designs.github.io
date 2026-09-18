@@ -38,13 +38,13 @@ height="0" width="0" style="display:none;visibility:hidden" title="gtm"></iframe
 <div id="desktop">
 
   <div id="region-bar">
-    <span class="region-label" data-i18n="region-label">REGION:</span>
-    <button class="flag-btn flag-us" data-region="en" aria-pressed="true" title="English (US)"><span class="sr-only">English (US)</span></button>
-    <button class="flag-btn flag-uk" data-region="uk" aria-pressed="false" title="English (UK)"><span class="sr-only">English (UK)</span></button>
-    <button class="flag-btn flag-jp" data-region="ja" aria-pressed="false" title="日本語"><span class="sr-only">Japanese</span></button>
-    <span style="font-size:12px;color:#333;" data-i18n="region-disclaimer">(now it actually works!)</span>
+    <span class="region-label">REGION:</span>
+    <button class="flag-btn flag-us" data-region="us" aria-pressed="true" title="Set clock to US time (New York)"><span class="sr-only">US Eastern Time</span></button>
+    <button class="flag-btn flag-uk" data-region="uk" aria-pressed="false" title="Set clock to UK time (London)"><span class="sr-only">UK Time</span></button>
+    <button class="flag-btn flag-jp" data-region="jp" aria-pressed="false" title="Set clock to Japan time (Tokyo)"><span class="sr-only">Japan Time</span></button>
+    <span style="font-size:12px;color:#333;">(sets the taskbar clock)</span>
     <div class="visitor-counter">
-      <span data-i18n="visitors-label">VISITORS:</span>
+      <span>VISITORS:</span>
       <span class="counter-digits" id="hit-count">000000</span>
     </div>
   </div>
@@ -52,31 +52,31 @@ height="0" width="0" style="display:none;visibility:hidden" title="gtm"></iframe
   <div id="icon-field">
     <button class="desktop-icon" data-open="window-about">
       <img class="lazy-gif pixel-icon" data-gif="person" width="32" height="32" alt="" loading="lazy">
-      <span data-i18n="icon-about">About_Andre</span>
+      <span>About_Andre</span>
     </button>
     <button class="desktop-icon" data-open="window-projects">
       <img class="lazy-gif pixel-icon" data-gif="folder" width="32" height="32" alt="" loading="lazy">
-      <span data-i18n="icon-projects">My_Projects</span>
+      <span>My_Projects</span>
     </button>
     <button class="desktop-icon" data-open="window-contact">
       <img class="lazy-gif pixel-icon" data-gif="mail" width="32" height="32" alt="" loading="lazy">
-      <span data-i18n="icon-contact">Contact_Me</span>
+      <span>Contact_Me</span>
     </button>
     <button class="desktop-icon" data-open="window-about" title="Same as About_Andre, but fancier">
       <img class="lazy-gif pixel-icon" data-gif="computer" width="32" height="32" alt="" loading="lazy">
-      <span data-i18n="icon-computer">My_Computer</span>
+      <span>My_Computer</span>
     </button>
     <button class="desktop-icon" data-open="window-contact" title="Sign the guestbook">
       <img class="lazy-gif pixel-icon" data-gif="book" width="32" height="32" alt="" loading="lazy">
-      <span data-i18n="icon-guestbook">Guestbook</span>
+      <span>Guestbook</span>
     </button>
     <button class="desktop-icon" data-shutdown title="Do not click (click it)">
       <img class="lazy-gif pixel-icon" data-gif="bin" width="32" height="32" alt="" loading="lazy">
-      <span data-i18n="icon-bin">Recycle_Bin</span>
+      <span>Recycle_Bin</span>
     </button>
     <button class="desktop-icon" data-open-modal="modal-oldsite" title="A memorial">
       <img class="lazy-gif pixel-icon" data-gif="folder_pink" width="32" height="32" alt="" loading="lazy">
-      <span data-i18n="icon-oldsite">Old_Site_v1</span>
+      <span>Old_Site_v1</span>
     </button>
   </div>
 
@@ -84,28 +84,28 @@ height="0" width="0" style="display:none;visibility:hidden" title="gtm"></iframe
   <section class="window" id="window-about" role="dialog" aria-label="About André">
     <div class="titlebar">
       <img class="lazy-gif" data-gif="person" width="14" height="14" alt="" loading="lazy">
-      <span class="t-text">ABOUT_ANDRE.txt — <span data-i18n="app-notepad">Notepad</span></span>
+      <span class="t-text">ABOUT_ANDRE.txt — <span>Notepad</span></span>
       <button class="title-btn" data-min="window-about" aria-label="Minimize">_</button>
       <button class="title-btn" data-max="window-about" aria-label="Maximize">▢</button>
       <button class="title-btn" data-close="window-about" aria-label="Close">×</button>
     </div>
     <div class="menubar">
-      <span class="mb-item" data-i18n="mb-file">File</span><span class="mb-item" data-i18n="mb-edit">Edit</span>
-      <span class="mb-item" data-i18n="mb-view">View</span><span class="mb-item" data-i18n="mb-help">Help</span>
+      <span class="mb-item">File</span><span class="mb-item">Edit</span>
+      <span class="mb-item">View</span><span class="mb-item">Help</span>
     </div>
     <div class="window-body">
       <div class="nav-row">
-        <a class="ascii-btn" href="about.html" data-nav-open="window-about" data-i18n="nav-about-btn">[ ABOUT.EXE ]</a>
-        <a class="ascii-btn" href="index.html#window-projects" data-nav-open="window-projects" data-i18n="nav-projects-btn">[ PROJECTS.EXE ]</a>
-        <a class="ascii-btn" href="contact.html" data-nav-open="window-contact" data-i18n="nav-contact-btn">[ CONTACT.EXE ]</a>
+        <a class="ascii-btn" href="about.html" data-nav-open="window-about">[ ABOUT.EXE ]</a>
+        <a class="ascii-btn" href="index.html#window-projects" data-nav-open="window-projects">[ PROJECTS.EXE ]</a>
+        <a class="ascii-btn" href="contact.html" data-nav-open="window-contact">[ CONTACT.EXE ]</a>
       </div>
       <hr class="hr-classic">
-      <h2 data-i18n="about-h2">Hi, I'm André Fajardo.</h2>
-      <p data-i18n="about-intro">Welcome to the site!! I'm a multidisciplinary designer working across
+      <h2>Hi, I'm André Fajardo.</h2>
+      <p>Welcome to the site!! I'm a multidisciplinary designer working across
       brand identity, web/UI, illustration, and the occasional questionable GIF.
       I like systems that hold together, and interfaces with a little personality
       left in them.</p>
-      <p><em data-i18n="about-note">(Placeholder bio — André, swap this paragraph for your real one! Talk
+      <p><em>(Placeholder bio — André, swap this paragraph for your real one! Talk
       about your background, your favorite tools, and what kind of projects you
       want more of.)</em></p>
       <div class="flame-rule"></div>
@@ -132,83 +132,83 @@ height="0" width="0" style="display:none;visibility:hidden" title="gtm"></iframe
   <section class="window" id="window-projects" role="dialog" aria-label="Projects">
     <div class="titlebar">
       <img class="lazy-gif" data-gif="folder" width="14" height="14" alt="" loading="lazy">
-      <span class="t-text">My_Projects — <span data-i18n="app-explorer">Windows Explorer</span></span>
+      <span class="t-text">My_Projects — <span>Windows Explorer</span></span>
       <button class="title-btn" data-min="window-projects" aria-label="Minimize">_</button>
       <button class="title-btn" data-max="window-projects" aria-label="Maximize">▢</button>
       <button class="title-btn" data-close="window-projects" aria-label="Close">×</button>
     </div>
     <div class="menubar">
-      <span class="mb-item" data-i18n="mb-file">File</span><span class="mb-item" data-i18n="mb-edit">Edit</span>
-      <span class="mb-item" data-i18n="mb-view">View</span><span class="mb-item" data-i18n="mb-help">Help</span>
+      <span class="mb-item">File</span><span class="mb-item">Edit</span>
+      <span class="mb-item">View</span><span class="mb-item">Help</span>
     </div>
     <div class="window-body">
       <div class="nav-row">
-        <a class="ascii-btn" href="about.html" data-nav-open="window-about" data-i18n="nav-about-btn">[ ABOUT.EXE ]</a>
-        <a class="ascii-btn" href="index.html#window-projects" data-nav-open="window-projects" data-i18n="nav-projects-btn">[ PROJECTS.EXE ]</a>
-        <a class="ascii-btn" href="contact.html" data-nav-open="window-contact" data-i18n="nav-contact-btn">[ CONTACT.EXE ]</a>
+        <a class="ascii-btn" href="about.html" data-nav-open="window-about">[ ABOUT.EXE ]</a>
+        <a class="ascii-btn" href="index.html#window-projects" data-nav-open="window-projects">[ PROJECTS.EXE ]</a>
+        <a class="ascii-btn" href="contact.html" data-nav-open="window-contact">[ CONTACT.EXE ]</a>
       </div>
       <hr class="hr-classic">
-      <p style="font-size:14px;color:#444;" data-i18n="projects-intro">Double-click… okay, single-click for the impatient. Placeholder
+      <p style="font-size:14px;color:#444;">Double-click… okay, single-click for the impatient. Placeholder
       case studies below — swap in real thumbnails, links, and copy.</p>
-      <h2><img class="lazy-gif" data-gif="star" width="16" height="16" alt="" loading="lazy" style="vertical-align:middle;"> <span data-i18n="projects-h2">Recent Work</span></h2>
+      <h2><img class="lazy-gif" data-gif="star" width="16" height="16" alt="" loading="lazy" style="vertical-align:middle;"> <span>Recent Work</span></h2>
       <div class="project-grid">
 
         <button class="project-card" data-detail>
           <div class="checker-frame">PROJECT_01<br>.PSD</div>
-          <strong data-i18n="proj1-title">Client Logo (final_FINAL2)</strong><br>
+          <strong>Client Logo (final_FINAL2)</strong><br>
           <span class="tag">BRAND</span>
           <div class="project-detail hidden">
-            <p style="font-size:14px;" data-i18n="proj1-detail">A brand identity refresh — logo system, type pairing, a color
+            <p style="font-size:14px;">A brand identity refresh — logo system, type pairing, a color
             palette that survived three rounds of “make it pop.”</p>
           </div>
         </button>
 
         <button class="project-card" data-detail>
           <div class="checker-frame">PROJECT_02<br>.FIG</div>
-          <strong data-i18n="proj2-title">Startup Dashboard UI</strong><br>
+          <strong>Startup Dashboard UI</strong><br>
           <span class="tag">WEB / UI</span>
           <div class="project-detail hidden">
-            <p style="font-size:14px;" data-i18n="proj2-detail">End-to-end UI for a SaaS dashboard, from wireframes to a shipped
+            <p style="font-size:14px;">End-to-end UI for a SaaS dashboard, from wireframes to a shipped
             design system.</p>
           </div>
         </button>
 
         <button class="project-card" data-detail>
           <div class="checker-frame">PROJECT_03<br>.AI</div>
-          <strong data-i18n="proj3-title">Editorial Zine, Issue 04</strong><br>
+          <strong>Editorial Zine, Issue 04</strong><br>
           <span class="tag">PRINT</span>
           <div class="project-detail hidden">
-            <p style="font-size:14px;" data-i18n="proj3-detail">Layout and illustration for a quarterly zine — risograph-friendly
+            <p style="font-size:14px;">Layout and illustration for a quarterly zine — risograph-friendly
             spreads and a stubborn 2-color budget.</p>
           </div>
         </button>
 
         <button class="project-card" data-detail>
           <div class="checker-frame">PROJECT_04<br>.GIF</div>
-          <strong data-i18n="proj4-title">Loop Animations Pack</strong><br>
+          <strong>Loop Animations Pack</strong><br>
           <span class="tag">MOTION</span>
           <div class="project-detail hidden">
-            <p style="font-size:14px;" data-i18n="proj4-detail">A set of looping pixel animations, in the proud tradition of the
+            <p style="font-size:14px;">A set of looping pixel animations, in the proud tradition of the
             gifs on this very page.</p>
           </div>
         </button>
 
         <button class="project-card" data-detail>
           <div class="checker-frame">PROJECT_05<br>.AI</div>
-          <strong data-i18n="proj5-title">Character Illustration Set</strong><br>
+          <strong>Character Illustration Set</strong><br>
           <span class="tag">ILLUSTRATION</span>
           <div class="project-detail hidden">
-            <p style="font-size:14px;" data-i18n="proj5-detail">A cast of mascots for a client who wanted “friendly but a little
+            <p style="font-size:14px;">A cast of mascots for a client who wanted “friendly but a little
             unhinged.”</p>
           </div>
         </button>
 
         <button class="project-card" data-detail>
           <div class="checker-frame">PROJECT_06<br>.PDF</div>
-          <strong data-i18n="proj6-title">Packaging: Coffee Co.</strong><br>
+          <strong>Packaging: Coffee Co.</strong><br>
           <span class="tag">PACKAGING</span>
           <div class="project-detail hidden">
-            <p style="font-size:14px;" data-i18n="proj6-detail">Box structure and label system for a small-batch roaster, built to
+            <p style="font-size:14px;">Box structure and label system for a small-batch roaster, built to
             survive a busy shelf.</p>
           </div>
         </button>
@@ -228,20 +228,20 @@ height="0" width="0" style="display:none;visibility:hidden" title="gtm"></iframe
       <button class="title-btn" data-close="window-contact" aria-label="Close">×</button>
     </div>
     <div class="menubar">
-      <span class="mb-item" data-i18n="mb-file">File</span><span class="mb-item" data-i18n="mb-edit">Edit</span>
-      <span class="mb-item" data-i18n="mb-view">View</span><span class="mb-item" data-i18n="mb-help">Help</span>
+      <span class="mb-item">File</span><span class="mb-item">Edit</span>
+      <span class="mb-item">View</span><span class="mb-item">Help</span>
     </div>
     <div class="window-body">
       <div class="nav-row">
-        <a class="ascii-btn" href="about.html" data-nav-open="window-about" data-i18n="nav-about-btn">[ ABOUT.EXE ]</a>
-        <a class="ascii-btn" href="index.html#window-projects" data-nav-open="window-projects" data-i18n="nav-projects-btn">[ PROJECTS.EXE ]</a>
-        <a class="ascii-btn" href="contact.html" data-nav-open="window-contact" data-i18n="nav-contact-btn">[ CONTACT.EXE ]</a>
+        <a class="ascii-btn" href="about.html" data-nav-open="window-about">[ ABOUT.EXE ]</a>
+        <a class="ascii-btn" href="index.html#window-projects" data-nav-open="window-projects">[ PROJECTS.EXE ]</a>
+        <a class="ascii-btn" href="contact.html" data-nav-open="window-contact">[ CONTACT.EXE ]</a>
       </div>
       <hr class="hr-classic">
-      <h2 data-i18n="contact-h2">You've Got Mail</h2>
+      <h2>You've Got Mail</h2>
       <p>
         <img class="lazy-gif" data-gif="floppy" width="18" height="18" alt="" loading="lazy" style="vertical-align:middle;">
-        <span data-i18n="contact-email-label">Real email:</span> <a href="mailto:hello@andre-designs.example">hello@andre-designs.example</a>
+        <span>Real email:</span> <a href="mailto:hello@andre-designs.example">hello@andre-designs.example</a>
         <em style="font-size:13px;">(placeholder — swap for your real address)</em>
       </p>
       <div class="badge-row">
@@ -250,16 +250,16 @@ height="0" width="0" style="display:none;visibility:hidden" title="gtm"></iframe
         <a class="ascii-btn" href="#" title="Placeholder — link your profile">[in]</a>
         <a class="ascii-btn" href="#" title="Placeholder — link your profile">[gh]</a>
       </div>
-      <h3 data-i18n="gb-heading">SIGN MY GUESTBOOK</h3>
+      <h3>SIGN MY GUESTBOOK</h3>
       <form class="guestbook">
-        <label for="gb-name" data-i18n="gb-label-name">Name</label>
+        <label for="gb-name">Name</label>
         <input class="field-in" id="gb-name" name="name" type="text" autocomplete="name" required>
-        <label for="gb-email" data-i18n="gb-label-email">Email (not shown, not spammed)</label>
+        <label for="gb-email">Email (not shown, not spammed)</label>
         <input class="field-in" id="gb-email" name="email" type="email" autocomplete="email">
-        <label for="gb-msg" data-i18n="gb-label-msg">Message</label>
+        <label for="gb-msg">Message</label>
         <textarea class="field-in" id="gb-msg" name="message" rows="3"></textarea>
         <p class="badge-row" style="margin-top:10px;">
-          <button type="submit" class="ascii-btn" data-i18n="gb-submit">[ SIGN GUESTBOOK ]</button>
+          <button type="submit" class="ascii-btn">[ SIGN GUESTBOOK ]</button>
           <img class="lazy-gif" data-gif="cursor" width="18" height="18" alt="" loading="lazy" style="vertical-align:middle;">
         </p>
         <p class="field-msg" role="status" aria-live="polite"></p>
@@ -275,38 +275,38 @@ height="0" width="0" style="display:none;visibility:hidden" title="gtm"></iframe
 <div id="start-menu">
   <div class="sm-rail">ANDRE 95</div>
   <div class="sm-items">
-    <button data-nav-open="window-about"><img class="lazy-gif" data-gif="person" width="20" height="20" alt="" loading="lazy"><span data-i18n="start-about">About</span></button>
-    <button data-nav-open="window-projects"><img class="lazy-gif" data-gif="folder" width="20" height="20" alt="" loading="lazy"><span data-i18n="start-projects">Projects</span></button>
-    <button data-nav-open="window-contact"><img class="lazy-gif" data-gif="mail" width="20" height="20" alt="" loading="lazy"><span data-i18n="start-contact">Contact</span></button>
+    <button data-nav-open="window-about"><img class="lazy-gif" data-gif="person" width="20" height="20" alt="" loading="lazy"><span>About</span></button>
+    <button data-nav-open="window-projects"><img class="lazy-gif" data-gif="folder" width="20" height="20" alt="" loading="lazy"><span>Projects</span></button>
+    <button data-nav-open="window-contact"><img class="lazy-gif" data-gif="mail" width="20" height="20" alt="" loading="lazy"><span>Contact</span></button>
     <div class="sm-sep"></div>
-    <button data-open-modal="modal-terms"><img class="lazy-gif" data-gif="book" width="20" height="20" alt="" loading="lazy"><span data-i18n="start-terms">Terms</span></button>
-    <button data-open-modal="modal-privacy"><img class="lazy-gif" data-gif="book" width="20" height="20" alt="" loading="lazy"><span data-i18n="start-privacy">Privacy</span></button>
+    <button data-open-modal="modal-terms"><img class="lazy-gif" data-gif="book" width="20" height="20" alt="" loading="lazy"><span>Terms</span></button>
+    <button data-open-modal="modal-privacy"><img class="lazy-gif" data-gif="book" width="20" height="20" alt="" loading="lazy"><span>Privacy</span></button>
     <div class="sm-sep"></div>
-    <button data-shutdown><img class="lazy-gif" data-gif="bin" width="20" height="20" alt="" loading="lazy"><span data-i18n="start-shutdown">Shut Down…</span></button>
+    <button data-shutdown><img class="lazy-gif" data-gif="bin" width="20" height="20" alt="" loading="lazy"><span>Shut Down…</span></button>
   </div>
 </div>
 
 <div id="taskbar">
-  <button id="start-btn" class="bevel-btn"><span class="flag-bit">🪟</span> <span data-i18n="start-btn-label">Start</span></button>
+  <button id="start-btn" class="bevel-btn"><span class="flag-bit">🪟</span> <span>Start</span></button>
   <div id="task-list"></div>
   <div id="clock">--:--</div>
 </div>
 
 <div id="bsod" role="alertdialog" aria-label="Shutdown screen">
   <p><span class="blocktxt">ANDRE95</span></p>
-  <p data-i18n="bsod-line1">A fatal exception 0E has occurred at DESIGNER:ANDRE.</p>
-  <p data-i18n="bsod-line2">The current portfolio has been shut down to prevent damage to your browsing experience.</p>
-  <p data-i18n="bsod-line3">* Press any key to continue _</p>
-  <p data-i18n="bsod-line4">(just kidding — nothing is actually broken)</p>
-  <p><button class="ascii-btn" id="bsod-reboot" data-i18n="bsod-reboot">[ REBOOT ]</button></p>
+  <p>A fatal exception 0E has occurred at DESIGNER:ANDRE.</p>
+  <p>The current portfolio has been shut down to prevent damage to your browsing experience.</p>
+  <p>* Press any key to continue _</p>
+  <p>(just kidding — nothing is actually broken)</p>
+  <p><button class="ascii-btn" id="bsod-reboot">[ REBOOT ]</button></p>
 </div>
 
 <div class="modal-backdrop" id="modal-terms">
   <div class="modal">
-    <div class="titlebar"><span class="t-text">TERMS.TXT — <span data-i18n="app-notepad">Notepad</span></span>
+    <div class="titlebar"><span class="t-text">TERMS.TXT — <span>Notepad</span></span>
       <button class="title-btn" data-close-modal aria-label="Close">×</button></div>
     <div class="window-body">
-      <p data-i18n="terms-body">By using this site you agree to enjoy beveled buttons and
+      <p>By using this site you agree to enjoy beveled buttons and
       at least one animated GIF per screenful.</p>
       <p style="font-size:12px;color:#666;">Placeholder joke copy — replace with
       a real terms page if you need one.</p>
@@ -315,10 +315,10 @@ height="0" width="0" style="display:none;visibility:hidden" title="gtm"></iframe
 </div>
 <div class="modal-backdrop" id="modal-privacy">
   <div class="modal">
-    <div class="titlebar"><span class="t-text">PRIVACY.TXT — <span data-i18n="app-notepad">Notepad</span></span>
+    <div class="titlebar"><span class="t-text">PRIVACY.TXT — <span>Notepad</span></span>
       <button class="title-btn" data-close-modal aria-label="Close">×</button></div>
     <div class="window-body">
-      <p data-i18n="privacy-body">This site stores a visitor counter in your browser's local storage
+      <p>This site stores a visitor counter in your browser's local storage
       and nothing else. No cookies, no tracking pixels beyond the GTM
       placeholder wired up above (which is inert until you add a real ID).</p>
       <p style="font-size:12px;color:#666;">Placeholder joke-adjacent copy —
@@ -329,10 +329,10 @@ height="0" width="0" style="display:none;visibility:hidden" title="gtm"></iframe
 
 <div class="modal-backdrop" id="modal-oldsite">
   <div class="modal">
-    <div class="titlebar"><span class="t-text">OLD_SITE.URL — <span data-i18n="app-shortcut">Shortcut</span></span>
+    <div class="titlebar"><span class="t-text">OLD_SITE.URL — <span>Shortcut</span></span>
       <button class="title-btn" data-close-modal aria-label="Close">×</button></div>
     <div class="window-body">
-      <p data-i18n="oldsite-body">404 — the original 1999 site was lost in a server migration
+      <p>404 — the original 1999 site was lost in a server migration
       sometime around 2003. This folder is a memorial to it.</p>
       <p style="font-size:12px;color:#666;">(Placeholder joke content — or
       link it to a real archive.org snapshot if one exists!)</p>
