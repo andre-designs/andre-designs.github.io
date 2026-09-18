@@ -2,46 +2,370 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact — Your Name</title>
-<meta name="description" content="Get in touch with Your Name.">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Contact André Fajardo — ANDRE95</title>
+<meta name="description" content="Get in touch with André Fajardo — multidisciplinary designer. Email, socials, and a very optional guestbook.">
+
+<!-- ================= Open Graph ================= -->
+<meta property="og:title" content="Contact André Fajardo">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="andre-designs.github.io">
+<meta property="og:url" content="https://andre-designs.github.io/contact.html">
+<meta property="og:description" content="Get in touch with André Fajardo — multidisciplinary designer. Email, socials, and a very optional guestbook.">
+<!-- og:image needs a real hosted URL (data: URIs are ignored by link-preview
+     crawlers) — add one before shipping, e.g. og:image content="https://andre-designs.github.io/preview.png" -->
+
+<link rel="icon" type="image/png" href="data:image/png;base64,assets: ['globe', 'star', 'construction', 'mail', 'floppy', 'flame', 'folder', 'folder_pink', 'computer', 'bin', 'book', 'person', 'checktile', 'cursor']
+total base64 chars: 29524
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfUlEQVR4nGNgoBAwMjAwMIiIiPwnR/ObN28YWWCcNWvWkKQ5JCSEgYGBgYEFWdDLy4sozdu2bYOzWdAlvwVMw6uZa0MWCp+JKCvxgIE3ACMM0P1IkgHIoUssoDghMeKSXLBgAYqhCQkJWNVSHIgYphLyzps3b1D0UOwCigEAufocaX8QnKcAAAAASUVORK5CYII=">
 <link rel="stylesheet" href="style.css">
+
+<!-- ================= Google Tag Manager (placeholder) ================= -->
+<!-- Replace GTM-XXXXXXX with your real container ID before publishing. -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+<!-- ============ End Google Tag Manager placeholder ============ -->
 </head>
 <body>
+<!-- Google Tag Manager (noscript, placeholder) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+height="0" width="0" style="display:none;visibility:hidden" title="gtm"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
-<nav class="site-nav">
-  <a href="index.html" class="wordmark">Your Name</a>
-  <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
-  <ul>
-    <li><a href="index.html">Work</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html" aria-current="page">Contact</a></li>
-  </ul>
-</nav>
+<div id="desktop">
 
-<main>
-  <header class="page-header">
-    <h1>Contact</h1>
-    <p>For projects, collaborations, or press inquiries, reach out directly.</p>
-  </header>
-
-  <section class="section">
-    <ul class="contact-list">
-      <li><a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a></li>
-      <li><a href="#">Instagram</a></li>
-      <li><a href="#">LinkedIn</a></li>
-    </ul>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <span>&copy; 2026 Your Name</span>
-  <div class="socials">
-    <a href="#">Instagram</a>
-    <a href="#">LinkedIn</a>
+  <div class="marquee-strip" aria-hidden="true">
+    <span>★彡 WELCOME TO ANDRE95 彡★ &nbsp;&nbsp;&bull;&nbsp;&nbsp; UNDER CONSTRUCTION SINCE 1999 &nbsp;&nbsp;&bull;&nbsp;&nbsp; BEST VIEWED AT 800×600 &nbsp;&nbsp;&bull;&nbsp;&nbsp; PLEASE SIGN MY GUESTBOOK &nbsp;&nbsp;&bull;&nbsp;&nbsp; ★彡 WELCOME TO ANDRE95 彡★</span>
   </div>
+
+  <div id="region-bar">
+    <span class="region-label">REGION:</span>
+    <button class="flag-btn flag-us" data-region="en" aria-pressed="true" title="English (US)"><span class="sr-only">English (US)</span></button>
+    <button class="flag-btn flag-uk" data-region="uk" aria-pressed="false" title="English (UK)"><span class="sr-only">English (UK)</span></button>
+    <button class="flag-btn flag-jp" data-region="jp" aria-pressed="false" title="日本語 (decorative)"><span class="sr-only">Japanese (decorative)</span></button>
+    <span style="font-size:12px;color:#333;">(doesn't really translate anything, just vibes)</span>
+    <div class="visitor-counter">
+      <span>VISITORS:</span>
+      <span class="counter-digits" id="hit-count">000000</span>
+    </div>
+  </div>
+
+  <div id="icon-field">
+    <button class="desktop-icon" data-open="window-about">
+      <img class="lazy-gif pixel-icon" data-gif="person" width="32" height="32" alt="" loading="lazy">
+      About_Andre
+    </button>
+    <button class="desktop-icon" data-open="window-projects">
+      <img class="lazy-gif pixel-icon" data-gif="folder" width="32" height="32" alt="" loading="lazy">
+      My_Projects
+    </button>
+    <button class="desktop-icon" data-open="window-contact">
+      <img class="lazy-gif pixel-icon" data-gif="mail" width="32" height="32" alt="" loading="lazy">
+      Contact_Me
+    </button>
+    <button class="desktop-icon" data-open="window-about" title="Same as About_Andre, but fancier">
+      <img class="lazy-gif pixel-icon" data-gif="computer" width="32" height="32" alt="" loading="lazy">
+      My_Computer
+    </button>
+    <button class="desktop-icon" data-open="window-contact" title="Sign the guestbook">
+      <img class="lazy-gif pixel-icon" data-gif="book" width="32" height="32" alt="" loading="lazy">
+      Guestbook
+    </button>
+    <button class="desktop-icon" data-shutdown title="Do not click (click it)">
+      <img class="lazy-gif pixel-icon" data-gif="bin" width="32" height="32" alt="" loading="lazy">
+      Recycle_Bin
+    </button>
+    <button class="desktop-icon" data-open-modal="modal-oldsite" title="A memorial">
+      <img class="lazy-gif pixel-icon" data-gif="folder_pink" width="32" height="32" alt="" loading="lazy">
+      Old_Site_v1
+    </button>
+  </div>
+
+  <!-- ========================= WINDOW: ABOUT ========================= -->
+  <section class="window" id="window-about" role="dialog" aria-label="About André">
+    <div class="titlebar">
+      <img class="lazy-gif" data-gif="person" width="14" height="14" alt="" loading="lazy">
+      <span class="t-text">ABOUT_ANDRE.txt — Notepad</span>
+      <button class="title-btn" data-min="window-about" aria-label="Minimize">_</button>
+      <button class="title-btn" data-max="window-about" aria-label="Maximize">▢</button>
+      <button class="title-btn" data-close="window-about" aria-label="Close">×</button>
+    </div>
+    <div class="menubar">
+      <span class="mb-item">File</span><span class="mb-item">Edit</span>
+      <span class="mb-item">View</span><span class="mb-item">Help</span>
+    </div>
+    <div class="window-body">
+      <div class="nav-row">
+        <a class="ascii-btn" href="about.html" data-nav-open="window-about">[ ABOUT.EXE ]</a>
+        <a class="ascii-btn" href="index.html#window-projects" data-nav-open="window-projects">[ PROJECTS.EXE ]</a>
+        <a class="ascii-btn" href="contact.html" data-nav-open="window-contact">[ CONTACT.EXE ]</a>
+      </div>
+      <hr class="hr-classic">
+      <h2>Hi, I'm André Fajardo.</h2>
+      <p><span data-i18n-greet>welcome to the site!!</span> I'm a multidisciplinary designer working across
+      brand identity, web/UI, illustration, and the occasional questionable GIF.
+      I like systems that hold together, and interfaces with a little personality
+      left in them.</p>
+      <p><em>(Placeholder bio — André, swap this paragraph for your real one! Talk
+      about your background, your favorite tools, and what kind of projects you
+      want more of.)</em></p>
+      <div class="flame-rule"></div>
+      <h3>SKILLS.INI</h3>
+      <p>
+        <span class="tag">BRAND</span><span class="tag">WEB / UI</span>
+        <span class="tag">ILLUSTRATION</span><span class="tag">MOTION</span>
+        <span class="tag">PRINT</span><span class="tag">ART DIRECTION</span>
+      </p>
+      <h3>DOWNLOADS</h3>
+      <p class="badge-row">
+        <a class="ascii-btn" href="#" title="Wire this up to a real PDF">
++-----------------+
+| [SAVE] resume   |
+| .pdf (12kb)     |
++-----------------+</a>
+      </p>
+      <p style="font-size:13px;color:#555;">Resume link is a placeholder — point it at a hosted PDF.</p>
+    </div>
+    <div class="window-statusbar"><span>4 objects</span><span>139 KB</span></div>
+  </section>
+
+  <!-- ======================== WINDOW: PROJECTS ======================== -->
+  <section class="window" id="window-projects" role="dialog" aria-label="Projects">
+    <div class="titlebar">
+      <img class="lazy-gif" data-gif="folder" width="14" height="14" alt="" loading="lazy">
+      <span class="t-text">My_Projects — Windows Explorer</span>
+      <button class="title-btn" data-min="window-projects" aria-label="Minimize">_</button>
+      <button class="title-btn" data-max="window-projects" aria-label="Maximize">▢</button>
+      <button class="title-btn" data-close="window-projects" aria-label="Close">×</button>
+    </div>
+    <div class="menubar">
+      <span class="mb-item">File</span><span class="mb-item">Edit</span>
+      <span class="mb-item">View</span><span class="mb-item">Help</span>
+    </div>
+    <div class="window-body">
+      <div class="nav-row">
+        <a class="ascii-btn" href="about.html" data-nav-open="window-about">[ ABOUT.EXE ]</a>
+        <a class="ascii-btn" href="index.html#window-projects" data-nav-open="window-projects">[ PROJECTS.EXE ]</a>
+        <a class="ascii-btn" href="contact.html" data-nav-open="window-contact">[ CONTACT.EXE ]</a>
+      </div>
+      <hr class="hr-classic">
+      <p style="font-size:14px;color:#444;">Double-click… okay, single-click for the impatient. Placeholder
+      case studies below — swap in real thumbnails, links, and copy.</p>
+      <h2><img class="lazy-gif" data-gif="star" width="16" height="16" alt="" loading="lazy" style="vertical-align:middle;"> Recent Work</h2>
+      <div class="project-grid">
+
+        <button class="project-card" data-detail>
+          <div class="checker-frame">PROJECT_01<br>.PSD</div>
+          <strong>Client Logo (final_FINAL2)</strong><br>
+          <span class="tag">BRAND</span>
+          <div class="project-detail hidden">
+            <p style="font-size:14px;">A brand identity refresh — logo system, type pairing, a color
+            palette that survived three rounds of "make it pop."</p>
+          </div>
+        </button>
+
+        <button class="project-card" data-detail>
+          <div class="checker-frame">PROJECT_02<br>.FIG</div>
+          <strong>Startup Dashboard UI</strong><br>
+          <span class="tag">WEB / UI</span>
+          <div class="project-detail hidden">
+            <p style="font-size:14px;">End-to-end UI for a SaaS dashboard, from wireframes to a shipped
+            design system.</p>
+          </div>
+        </button>
+
+        <button class="project-card" data-detail>
+          <div class="checker-frame">PROJECT_03<br>.AI</div>
+          <strong>Editorial Zine, Issue 04</strong><br>
+          <span class="tag">PRINT</span>
+          <div class="project-detail hidden">
+            <p style="font-size:14px;">Layout and illustration for a quarterly zine — risograph-friendly
+            spreads and a stubborn 2-color budget.</p>
+          </div>
+        </button>
+
+        <button class="project-card" data-detail>
+          <div class="checker-frame">PROJECT_04<br>.GIF</div>
+          <strong>Loop Animations Pack</strong><br>
+          <span class="tag">MOTION</span>
+          <div class="project-detail hidden">
+            <p style="font-size:14px;">A set of looping pixel animations, in the proud tradition of the
+            gifs on this very page.</p>
+          </div>
+        </button>
+
+        <button class="project-card" data-detail>
+          <div class="checker-frame">PROJECT_05<br>.AI</div>
+          <strong>Character Illustration Set</strong><br>
+          <span class="tag">ILLUSTRATION</span>
+          <div class="project-detail hidden">
+            <p style="font-size:14px;">A cast of mascots for a client who wanted "friendly but a little
+            unhinged."</p>
+          </div>
+        </button>
+
+        <button class="project-card" data-detail>
+          <div class="checker-frame">PROJECT_06<br>.PDF</div>
+          <strong>Packaging: Coffee Co.</strong><br>
+          <span class="tag">PACKAGING</span>
+          <div class="project-detail hidden">
+            <p style="font-size:14px;">Box structure and label system for a small-batch roaster, built to
+            survive a busy shelf.</p>
+          </div>
+        </button>
+
+      </div>
+    </div>
+    <div class="window-statusbar"><span>6 objects</span><span>2.1 MB</span></div>
+  </section>
+
+  <!-- ======================== WINDOW: CONTACT ========================= -->
+  <section class="window" id="window-contact" role="dialog" aria-label="Contact">
+    <div class="titlebar">
+      <img class="lazy-gif" data-gif="mail" width="14" height="14" alt="" loading="lazy">
+      <span class="t-text">Contact_Me — Outlook Express</span>
+      <button class="title-btn" data-min="window-contact" aria-label="Minimize">_</button>
+      <button class="title-btn" data-max="window-contact" aria-label="Maximize">▢</button>
+      <button class="title-btn" data-close="window-contact" aria-label="Close">×</button>
+    </div>
+    <div class="menubar">
+      <span class="mb-item">File</span><span class="mb-item">Edit</span>
+      <span class="mb-item">View</span><span class="mb-item">Help</span>
+    </div>
+    <div class="window-body">
+      <div class="nav-row">
+        <a class="ascii-btn" href="about.html" data-nav-open="window-about">[ ABOUT.EXE ]</a>
+        <a class="ascii-btn" href="index.html#window-projects" data-nav-open="window-projects">[ PROJECTS.EXE ]</a>
+        <a class="ascii-btn" href="contact.html" data-nav-open="window-contact">[ CONTACT.EXE ]</a>
+      </div>
+      <hr class="hr-classic">
+      <h2>You've Got Mail</h2>
+      <p>
+        <img class="lazy-gif" data-gif="floppy" width="18" height="18" alt="" loading="lazy" style="vertical-align:middle;">
+        Real email: <a href="mailto:hello@andre-designs.example">hello@andre-designs.example</a>
+        <em style="font-size:13px;">(placeholder — swap for your real address)</em>
+      </p>
+      <div class="badge-row">
+        <a class="ascii-btn" href="#" title="Placeholder — link your profile">[tw]</a>
+        <a class="ascii-btn" href="#" title="Placeholder — link your profile">[ig]</a>
+        <a class="ascii-btn" href="#" title="Placeholder — link your profile">[in]</a>
+        <a class="ascii-btn" href="#" title="Placeholder — link your profile">[gh]</a>
+      </div>
+      <h3>SIGN MY GUESTBOOK</h3>
+      <form class="guestbook">
+        <label for="gb-name">Name</label>
+        <input class="field-in" id="gb-name" name="name" type="text" autocomplete="name" required>
+        <label for="gb-email">Email (not shown, not spammed)</label>
+        <input class="field-in" id="gb-email" name="email" type="email" autocomplete="email">
+        <label for="gb-msg">Message</label>
+        <textarea class="field-in" id="gb-msg" name="message" rows="3"></textarea>
+        <p class="badge-row" style="margin-top:10px;">
+          <button type="submit" class="ascii-btn">[ SIGN GUESTBOOK ]</button>
+          <img class="lazy-gif" data-gif="cursor" width="18" height="18" alt="" loading="lazy" style="vertical-align:middle;">
+        </p>
+        <p class="field-msg" role="status" aria-live="polite"></p>
+      </form>
+      <p style="font-size:12px;color:#666;">This guestbook is decorative and doesn't send anywhere yet — wire
+      it up to a form backend (or the mailto above) when you're ready.</p>
+    </div>
+    <div class="window-statusbar"><span>Inbox</span><span>0 unread</span></div>
+  </section>
+
+</div><!-- /#desktop -->
+
+<div id="start-menu">
+  <div class="sm-rail">ANDRE 95</div>
+  <div class="sm-items">
+    <button data-nav-open="window-about"><img class="lazy-gif" data-gif="person" width="20" height="20" alt="" loading="lazy">About</button>
+    <button data-nav-open="window-projects"><img class="lazy-gif" data-gif="folder" width="20" height="20" alt="" loading="lazy">Projects</button>
+    <button data-nav-open="window-contact"><img class="lazy-gif" data-gif="mail" width="20" height="20" alt="" loading="lazy">Contact</button>
+    <div class="sm-sep"></div>
+    <button data-open-modal="modal-terms"><img class="lazy-gif" data-gif="book" width="20" height="20" alt="" loading="lazy">Terms</button>
+    <button data-open-modal="modal-privacy"><img class="lazy-gif" data-gif="book" width="20" height="20" alt="" loading="lazy">Privacy</button>
+    <div class="sm-sep"></div>
+    <button data-shutdown><img class="lazy-gif" data-gif="bin" width="20" height="20" alt="" loading="lazy">Shut Down…</button>
+  </div>
+</div>
+
+<div id="taskbar">
+  <button id="start-btn" class="bevel-btn"><span class="flag-bit">🪟</span> Start</button>
+  <div id="task-list"></div>
+  <div id="clock">--:--</div>
+</div>
+
+<div id="bsod" role="alertdialog" aria-label="Shutdown screen">
+  <p><span class="blocktxt">ANDRE95</span></p>
+  <p>A fatal exception 0E has occurred at DESIGNER:ANDRE.<br>
+  The current portfolio has been shut down to prevent damage to your
+  browsing experience.</p>
+  <p>* Press any key to continue _</p>
+  <p>(just kidding — nothing is actually broken)</p>
+  <p><button class="ascii-btn" id="bsod-reboot">[ REBOOT ]</button></p>
+</div>
+
+<div class="modal-backdrop" id="modal-terms">
+  <div class="modal">
+    <div class="titlebar"><span class="t-text">TERMS.TXT — Notepad</span>
+      <button class="title-btn" data-close-modal aria-label="Close">×</button></div>
+    <div class="window-body">
+      <p>By using this site you agree to enjoy beveled buttons, occasional
+      marquee text, and at least one animated GIF per screenful.</p>
+      <p style="font-size:12px;color:#666;">Placeholder joke copy — replace with
+      a real terms page if you need one.</p>
+    </div>
+  </div>
+</div>
+<div class="modal-backdrop" id="modal-privacy">
+  <div class="modal">
+    <div class="titlebar"><span class="t-text">PRIVACY.TXT — Notepad</span>
+      <button class="title-btn" data-close-modal aria-label="Close">×</button></div>
+    <div class="window-body">
+      <p>This site stores a visitor counter in your browser's local storage
+      and nothing else. No cookies, no tracking pixels beyond the GTM
+      placeholder wired up above (which is inert until you add a real ID).</p>
+      <p style="font-size:12px;color:#666;">Placeholder joke-adjacent copy —
+      replace with a real privacy policy if you need one.</p>
+    </div>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="modal-oldsite">
+  <div class="modal">
+    <div class="titlebar"><span class="t-text">OLD_SITE.URL — Shortcut</span>
+      <button class="title-btn" data-close-modal aria-label="Close">×</button></div>
+    <div class="window-body">
+      <p>404 — the original 1999 site was lost in a server migration
+      sometime around 2003. This folder is a memorial to it.</p>
+      <p style="font-size:12px;color:#666;">(Placeholder joke content — or
+      link it to a real archive.org snapshot if one exists!)</p>
+    </div>
+  </div>
+</div>
+
+<footer id="site-footer">
+  <div class="webring" aria-hidden="true">
+    <img class="lazy-gif" data-gif="globe" width="20" height="20" alt="" loading="lazy">
+    <span class="badge">◄ WEBRING ►</span>
+    <img class="lazy-gif" data-gif="construction" width="22" height="20" alt="" loading="lazy">
+    <span class="badge">RSS</span>
+    <span class="badge">800×600</span>
+    <span class="badge">NETSCAPE OK</span>
+  </div>
+  <div class="foot-links">
+    <a href="#" data-open-modal="modal-terms">Terms</a>·<a href="#" data-open-modal="modal-privacy">Privacy</a>
+  </div>
+  <p class="credit">Typefaces by VileR. Built with plain HTML/CSS/JS, questionable taste, and love.</p>
 </footer>
 
-<script src="nav.js"></script>
+<script src="nav.js" defer></script>
+<a class="ascii-btn back-desktop" href="index.html">[ ⌂ DESKTOP.EXE ]</a>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  if (window.ANDRE95) { ANDRE95.openWindow('window-contact'); }
+});
+</script>
 </body>
 </html>
