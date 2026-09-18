@@ -15,7 +15,222 @@ const GIFS = {
   checktile: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAKElEQVR4nGP8z3DiPwMS4OZyQuYyMDEQAJQrYOTi4kJxw9dv++jtBgDvdQbyWieOyQAAAABJRU5ErkJggg==",
   cursor: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAVElEQVR4nJ2PSQoAMQgEy5D/f7nnMAtONDFE8CJdXQiHo91gG6AS/ABJSCptbTw4KAUDUNlSYGXrs7CZBR6wYHiDTzuAuf3RXi3dxPKH0OLKtiYNXvhDKfUVpSVwAAAAAElFTkSuQmCC",
 };
+/* ==========================================================================
+   ANDRE95 — translations for the region-flag switcher.
+   en = English (US, default — must match the hardcoded page text exactly).
+   uk = English (UK) — mostly spelling/phrasing, same meaning.
+   ja = Japanese — a real (if playful) translation of the visible copy.
+   Deliberately left untranslated: pseudo-filenames (ABOUT_ANDRE.txt,
+   PROJECT_01.PSD…), category tags (BRAND, WEB/UI…), ascii-art blocks, and
+   small grey "placeholder / wire this up" developer notes — those are
+   meant to read as system chrome, not page content.
+   ========================================================================== */
+const I18N = {
+  en: {
+    "region-label": "REGION:",
+    "region-disclaimer": "(now it actually works!)",
+    "visitors-label": "VISITORS:",
+    "marquee": "★彡 WELCOME TO ANDRE95 彡★   •   UNDER CONSTRUCTION SINCE 1999   •   BEST VIEWED AT 800×600   •   PLEASE SIGN MY GUESTBOOK   •   ★彡 WELCOME TO ANDRE95 彡★",
 
+    "icon-about": "About_Andre",
+    "icon-projects": "My_Projects",
+    "icon-contact": "Contact_Me",
+    "icon-computer": "My_Computer",
+    "icon-guestbook": "Guestbook",
+    "icon-bin": "Recycle_Bin",
+    "icon-oldsite": "Old_Site_v1",
+
+    "app-notepad": "Notepad",
+    "app-explorer": "Windows Explorer",
+    "app-shortcut": "Shortcut",
+
+    "mb-file": "File", "mb-edit": "Edit", "mb-view": "View", "mb-help": "Help",
+
+    "nav-about-btn": "[ ABOUT.EXE ]",
+    "nav-projects-btn": "[ PROJECTS.EXE ]",
+    "nav-contact-btn": "[ CONTACT.EXE ]",
+
+    "about-h2": "Hi, I'm André Fajardo.",
+    "about-intro": "Welcome to the site!! I'm a multidisciplinary designer working across brand identity, web/UI, illustration, and the occasional questionable GIF. I like systems that hold together, and interfaces with a little personality left in them.",
+    "about-note": "(Placeholder bio — André, swap this paragraph for your real one! Talk about your background, your favorite tools, and what kind of projects you want more of.)",
+
+    "projects-intro": "Double-click… okay, single-click for the impatient. Placeholder case studies below — swap in real thumbnails, links, and copy.",
+    "projects-h2": "Recent Work",
+    "proj1-title": "Client Logo (final_FINAL2)",
+    "proj1-detail": "A brand identity refresh — logo system, type pairing, a color palette that survived three rounds of \u201cmake it pop.\u201d",
+    "proj2-title": "Startup Dashboard UI",
+    "proj2-detail": "End-to-end UI for a SaaS dashboard, from wireframes to a shipped design system.",
+    "proj3-title": "Editorial Zine, Issue 04",
+    "proj3-detail": "Layout and illustration for a quarterly zine — risograph-friendly spreads and a stubborn 2-color budget.",
+    "proj4-title": "Loop Animations Pack",
+    "proj4-detail": "A set of looping pixel animations, in the proud tradition of the gifs on this very page.",
+    "proj5-title": "Character Illustration Set",
+    "proj5-detail": "A cast of mascots for a client who wanted \u201cfriendly but a little unhinged.\u201d",
+    "proj6-title": "Packaging: Coffee Co.",
+    "proj6-detail": "Box structure and label system for a small-batch roaster, built to survive a busy shelf.",
+
+    "contact-h2": "You've Got Mail",
+    "contact-email-label": "Real email:",
+    "gb-heading": "SIGN MY GUESTBOOK",
+    "gb-label-name": "Name",
+    "gb-label-email": "Email (not shown, not spammed)",
+    "gb-label-msg": "Message",
+    "gb-submit": "[ SIGN GUESTBOOK ]",
+    "gb-success": "* Entry saved to guestbook.dat — thanks for signing, {name}! *",
+    "gb-anon": "mystery visitor",
+
+    "start-about": "About", "start-projects": "Projects", "start-contact": "Contact",
+    "start-terms": "Terms", "start-privacy": "Privacy", "start-shutdown": "Shut Down…",
+    "start-btn-label": "Start",
+
+    "bsod-line1": "A fatal exception 0E has occurred at DESIGNER:ANDRE.",
+    "bsod-line2": "The current portfolio has been shut down to prevent damage to your browsing experience.",
+    "bsod-line3": "* Press any key to continue _",
+    "bsod-line4": "(just kidding — nothing is actually broken)",
+    "bsod-reboot": "[ REBOOT ]",
+
+    "terms-body": "By using this site you agree to enjoy beveled buttons, occasional marquee text, and at least one animated GIF per screenful.",
+    "privacy-body": "This site stores a visitor counter in your browser's local storage and nothing else. No cookies, no tracking pixels beyond the GTM placeholder wired up above (which is inert until you add a real ID).",
+    "oldsite-body": "404 — the original 1999 site was lost in a server migration sometime around 2003. This folder is a memorial to it."
+  },
+
+  uk: {
+    "region-label": "REGION:",
+    "region-disclaimer": "(now it actually works, brilliant!)",
+    "visitors-label": "VISITORS:",
+    "marquee": "★彡 WELCOME TO ANDRE95 彡★   •   UNDER CONSTRUCTION SINCE 1999   •   BEST VIEWED AT 800×600   •   PLEASE SIGN THE GUESTBOOK   •   ★彡 WELCOME TO ANDRE95 彡★",
+
+    "icon-about": "About_Andre",
+    "icon-projects": "My_Projects",
+    "icon-contact": "Contact_Me",
+    "icon-computer": "My_Computer",
+    "icon-guestbook": "Guestbook",
+    "icon-bin": "Recycle_Bin",
+    "icon-oldsite": "Old_Site_v1",
+
+    "app-notepad": "Notepad",
+    "app-explorer": "Windows Explorer",
+    "app-shortcut": "Shortcut",
+
+    "mb-file": "File", "mb-edit": "Edit", "mb-view": "View", "mb-help": "Help",
+
+    "nav-about-btn": "[ ABOUT.EXE ]",
+    "nav-projects-btn": "[ PROJECTS.EXE ]",
+    "nav-contact-btn": "[ CONTACT.EXE ]",
+
+    "about-h2": "Hi, I'm André Fajardo.",
+    "about-intro": "Welcome to the site, cheers! I'm a multidisciplinary designer working across brand identity, web/UI, illustration, and the occasional questionable GIF (colour included). I like systems that hold together, and interfaces with a little personality left in them.",
+    "about-note": "(Placeholder bio — André, swap this paragraph for your real one! Talk about your background, your favourite tools, and what kind of projects you want more of.)",
+
+    "projects-intro": "Double-click… okay, single-click for the impatient. Placeholder case studies below — swap in real thumbnails, links, and copy.",
+    "projects-h2": "Recent Work",
+    "proj1-title": "Client Logo (final_FINAL2)",
+    "proj1-detail": "A brand identity refresh — logo system, type pairing, a colour palette that survived three rounds of \u201cmake it pop.\u201d",
+    "proj2-title": "Startup Dashboard UI",
+    "proj2-detail": "End-to-end UI for a SaaS dashboard, from wireframes to a shipped design system.",
+    "proj3-title": "Editorial Zine, Issue 04",
+    "proj3-detail": "Layout and illustration for a quarterly zine — risograph-friendly spreads and a stubborn 2-colour budget.",
+    "proj4-title": "Loop Animations Pack",
+    "proj4-detail": "A set of looping pixel animations, in the proud tradition of the gifs on this very page.",
+    "proj5-title": "Character Illustration Set",
+    "proj5-detail": "A cast of mascots for a client who wanted \u201cfriendly but a little unhinged.\u201d",
+    "proj6-title": "Packaging: Coffee Co.",
+    "proj6-detail": "Box structure and label system for a small-batch roaster, built to survive a busy shelf.",
+
+    "contact-h2": "You've Got Post",
+    "contact-email-label": "Real email:",
+    "gb-heading": "SIGN MY GUESTBOOK",
+    "gb-label-name": "Name",
+    "gb-label-email": "Email (not shown, not spammed)",
+    "gb-label-msg": "Message",
+    "gb-submit": "[ SIGN GUESTBOOK ]",
+    "gb-success": "* Entry saved to guestbook.dat — cheers for signing, {name}! *",
+    "gb-anon": "mystery visitor",
+
+    "start-about": "About", "start-projects": "Projects", "start-contact": "Contact",
+    "start-terms": "Terms", "start-privacy": "Privacy", "start-shutdown": "Shut Down…",
+    "start-btn-label": "Start",
+
+    "bsod-line1": "A fatal exception 0E has occurred at DESIGNER:ANDRE.",
+    "bsod-line2": "The current portfolio has been shut down to prevent damage to your browsing experience.",
+    "bsod-line3": "* Press any key to continue _",
+    "bsod-line4": "(only joking — nothing's actually broken)",
+    "bsod-reboot": "[ REBOOT ]",
+
+    "terms-body": "By using this site you agree to enjoy beveled buttons, occasional marquee text, and at least one animated GIF per screenful.",
+    "privacy-body": "This site stores a visitor counter in your browser's local storage and nothing else. No cookies, no tracking pixels beyond the GTM placeholder wired up above (which is inert until you add a real ID).",
+    "oldsite-body": "404 — the original 1999 site was lost in a server migration sometime around 2003. This folder is a memorial to it."
+  },
+
+  ja: {
+    "region-label": "地域:",
+    "region-disclaimer": "(ちゃんと翻訳されます!)",
+    "visitors-label": "訪問者数:",
+    "marquee": "★彡 ANDRE95 へようこそ 彡★   •   1999年から工事中   •   800×600で見るのがおすすめ   •   ゲストブックにサインしてね   •   ★彡 ANDRE95 へようこそ 彡★",
+
+    "icon-about": "アンドレについて",
+    "icon-projects": "作品集",
+    "icon-contact": "連絡先",
+    "icon-computer": "マイコンピュータ",
+    "icon-guestbook": "ゲストブック",
+    "icon-bin": "ごみ箱",
+    "icon-oldsite": "旧サイト_v1",
+
+    "app-notepad": "メモ帳",
+    "app-explorer": "エクスプローラ",
+    "app-shortcut": "ショートカット",
+
+    "mb-file": "ファイル", "mb-edit": "編集", "mb-view": "表示", "mb-help": "ヘルプ",
+
+    "nav-about-btn": "[ について.EXE ]",
+    "nav-projects-btn": "[ 作品.EXE ]",
+    "nav-contact-btn": "[ 連絡先.EXE ]",
+
+    "about-h2": "こんにちは、アンドレ・ファジャルドです。",
+    "about-intro": "ようこそ!ブランディング、Web/UI、イラスト、そしてたまに怪しいGIFまで、幅広く手がけるマルチディシプリナリー・デザイナーです。破綻しない仕組みと、ちょっと個性の残るインターフェースが好きです。",
+    "about-note": "(仮のプロフィールです。アンドレさん、ここは本物の文章に差し替えてください。経歴、好きなツール、今後増やしたい案件などを書くと良いでしょう。)",
+
+    "projects-intro": "本当はダブルクリックしてほしいところですが、せっかちな人のためにシングルクリックでも開きます。以下は仮のケーススタディです。実際のサムネイル・リンク・文章に差し替えてください。",
+    "projects-h2": "最近の仕事",
+    "proj1-title": "クライアントロゴ (final_FINAL2)",
+    "proj1-detail": "ブランドアイデンティティの刷新。ロゴシステム、フォントの組み合わせ、そして「もっとパッと目立たせて」を3回乗り越えたカラーパレット。",
+    "proj2-title": "スタートアップのダッシュボードUI",
+    "proj2-detail": "SaaSダッシュボードのUIを、ワイヤーフレームから実装済みのデザインシステムまで一貫して担当。",
+    "proj3-title": "エディトリアル・ジン 第4号",
+    "proj3-detail": "季刊ジンのレイアウトとイラスト。リソグラフ印刷向けの見開きと、厳しい2色予算の中で制作。",
+    "proj4-title": "ループアニメーション集",
+    "proj4-detail": "このページのGIFたちと同じ伝統を受け継ぐ、ループするピクセルアニメーション集。",
+    "proj5-title": "キャラクターイラスト集",
+    "proj5-detail": "「親しみやすいけど、ちょっとイカれた感じ」を求めたクライアントのためのマスコットたち。",
+    "proj6-title": "パッケージ:コーヒー会社",
+    "proj6-detail": "小規模ロースターのための箱構造とラベルシステム。混み合う棚でも埋もれないように設計。",
+
+    "contact-h2": "メールが届いています",
+    "contact-email-label": "本物のメール:",
+    "gb-heading": "ゲストブックにサイン",
+    "gb-label-name": "お名前",
+    "gb-label-email": "メールアドレス(公開されません・迷惑メールも送りません)",
+    "gb-label-msg": "メッセージ",
+    "gb-submit": "[ サインする ]",
+    "gb-success": "* guestbook.dat に保存しました — サインありがとう、{name}さん! *",
+    "gb-anon": "名無しさん",
+
+    "start-about": "自己紹介", "start-projects": "作品", "start-contact": "お問い合わせ",
+    "start-terms": "利用規約", "start-privacy": "プライバシー", "start-shutdown": "シャットダウン…",
+    "start-btn-label": "スタート",
+
+    "bsod-line1": "DESIGNER:ANDRE で致命的な例外 0E が発生しました。",
+    "bsod-line2": "閲覧環境を保護するため、現在のポートフォリオはシャットダウンされました。",
+    "bsod-line3": "* 何かキーを押してください _",
+    "bsod-line4": "(冗談です — 何も壊れていません)",
+    "bsod-reboot": "[ 再起動 ]",
+
+    "terms-body": "このサイトを利用することで、立体的なベベルボタン、時々流れるマーキー文字、そして画面ごとに最低1つのアニメーションGIFを楽しむことに同意したものとします。",
+    "privacy-body": "このサイトはブラウザのローカルストレージに訪問者カウンターを保存するだけで、それ以外は何もしません。クッキーもなく、上部に設置したGTMのプレースホルダー(実IDを設定するまでは無効)以外のトラッキングも行いません。",
+    "oldsite-body": "404 — 1999年に作られたオリジナルサイトは、2003年頃のサーバー移行で失われました。このフォルダはその記念碑です。"
+  }
+};
+const I18N_LANG_ATTR = { en: "en", uk: "en-GB", ja: "ja" };
 /* ==========================================================================
    ANDRE95 — shared desktop behavior for index.html / about.html / contact.html
    Vanilla JS, no dependencies. GIFS{} (see top of this file) holds every
@@ -229,11 +444,16 @@ const GIFS = {
   }
 
   /* --------------------------------------------------------------- flags */
-  var STRINGS = {
-    en: { spelling: "COLOR", greet: "welcome to the site!!" },
-    uk: { spelling: "COLOUR", greet: "welcome to the site, cheers!" },
-    jp: { spelling: "COLOR", greet: "ようこそ (welcome)!" }
-  };
+  var currentLocale = "en";
+  function applyLocale(locale){
+    var dict = I18N[locale] || I18N.en;
+    document.querySelectorAll("[data-i18n]").forEach(function(el){
+      var key = el.getAttribute("data-i18n");
+      if (dict[key] != null) { el.textContent = dict[key]; }
+    });
+    document.documentElement.setAttribute("lang", I18N_LANG_ATTR[locale] || "en");
+    currentLocale = locale;
+  }
   function initFlags(){
     var flags = document.querySelectorAll(".flag-btn");
     if (!flags.length) return;
@@ -241,11 +461,7 @@ const GIFS = {
       btn.addEventListener("click", function(){
         flags.forEach(function(b){ b.setAttribute("aria-pressed", "false"); });
         btn.setAttribute("aria-pressed", "true");
-        var region = btn.getAttribute("data-region");
-        var s = STRINGS[region] || STRINGS.en;
-        document.querySelectorAll("[data-i18n-spelling]").forEach(function(n){ n.textContent = s.spelling; });
-        document.querySelectorAll("[data-i18n-greet]").forEach(function(n){ n.textContent = s.greet; });
-        document.documentElement.setAttribute("lang", region === "jp" ? "en" : "en");
+        applyLocale(btn.getAttribute("data-region"));
       });
     });
   }
@@ -258,8 +474,9 @@ const GIFS = {
       e.preventDefault();
       var msg = form.querySelector(".field-msg");
       if (msg) {
-        msg.textContent = "* Entry saved to guestbook.dat — thanks for signing, " +
-          (form.name.value || "mystery visitor") + "! *";
+        var dict = I18N[currentLocale] || I18N.en;
+        var name = form.name.value || dict["gb-anon"] || "mystery visitor";
+        msg.textContent = (dict["gb-success"] || I18N.en["gb-success"]).replace("{name}", name);
         msg.classList.add("is-shown");
       }
       form.reset();
