@@ -30,7 +30,6 @@ const I18N = {
     "region-label": "REGION:",
     "region-disclaimer": "(now it actually works!)",
     "visitors-label": "VISITORS:",
-    "marquee": "★彡 WELCOME TO ANDRE95 彡★   •   UNDER CONSTRUCTION SINCE 1999   •   BEST VIEWED AT 800×600   •   PLEASE SIGN MY GUESTBOOK   •   ★彡 WELCOME TO ANDRE95 彡★",
 
     "icon-about": "About_Andre",
     "icon-projects": "My_Projects",
@@ -89,7 +88,7 @@ const I18N = {
     "bsod-line4": "(just kidding — nothing is actually broken)",
     "bsod-reboot": "[ REBOOT ]",
 
-    "terms-body": "By using this site you agree to enjoy beveled buttons, occasional marquee text, and at least one animated GIF per screenful.",
+    "terms-body": "By using this site you agree to enjoy beveled buttons and at least one animated GIF per screenful.",
     "privacy-body": "This site stores a visitor counter in your browser's local storage and nothing else. No cookies, no tracking pixels beyond the GTM placeholder wired up above (which is inert until you add a real ID).",
     "oldsite-body": "404 — the original 1999 site was lost in a server migration sometime around 2003. This folder is a memorial to it."
   },
@@ -98,7 +97,6 @@ const I18N = {
     "region-label": "REGION:",
     "region-disclaimer": "(now it actually works, brilliant!)",
     "visitors-label": "VISITORS:",
-    "marquee": "★彡 WELCOME TO ANDRE95 彡★   •   UNDER CONSTRUCTION SINCE 1999   •   BEST VIEWED AT 800×600   •   PLEASE SIGN THE GUESTBOOK   •   ★彡 WELCOME TO ANDRE95 彡★",
 
     "icon-about": "About_Andre",
     "icon-projects": "My_Projects",
@@ -157,7 +155,7 @@ const I18N = {
     "bsod-line4": "(only joking — nothing's actually broken)",
     "bsod-reboot": "[ REBOOT ]",
 
-    "terms-body": "By using this site you agree to enjoy beveled buttons, occasional marquee text, and at least one animated GIF per screenful.",
+    "terms-body": "By using this site you agree to enjoy beveled buttons and at least one animated GIF per screenful.",
     "privacy-body": "This site stores a visitor counter in your browser's local storage and nothing else. No cookies, no tracking pixels beyond the GTM placeholder wired up above (which is inert until you add a real ID).",
     "oldsite-body": "404 — the original 1999 site was lost in a server migration sometime around 2003. This folder is a memorial to it."
   },
@@ -166,7 +164,6 @@ const I18N = {
     "region-label": "地域:",
     "region-disclaimer": "(ちゃんと翻訳されます!)",
     "visitors-label": "訪問者数:",
-    "marquee": "★彡 ANDRE95 へようこそ 彡★   •   1999年から工事中   •   800×600で見るのがおすすめ   •   ゲストブックにサインしてね   •   ★彡 ANDRE95 へようこそ 彡★",
 
     "icon-about": "アンドレについて",
     "icon-projects": "作品集",
@@ -225,7 +222,7 @@ const I18N = {
     "bsod-line4": "(冗談です — 何も壊れていません)",
     "bsod-reboot": "[ 再起動 ]",
 
-    "terms-body": "このサイトを利用することで、立体的なベベルボタン、時々流れるマーキー文字、そして画面ごとに最低1つのアニメーションGIFを楽しむことに同意したものとします。",
+    "terms-body": "このサイトを利用することで、立体的なベベルボタンと、画面ごとに最低1つのアニメーションGIFを楽しむことに同意したものとします。",
     "privacy-body": "このサイトはブラウザのローカルストレージに訪問者カウンターを保存するだけで、それ以外は何もしません。クッキーもなく、上部に設置したGTMのプレースホルダー(実IDを設定するまでは無効)以外のトラッキングも行いません。",
     "oldsite-body": "404 — 1999年に作られたオリジナルサイトは、2003年頃のサーバー移行で失われました。このフォルダはその記念碑です。"
   }
